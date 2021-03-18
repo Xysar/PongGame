@@ -1,0 +1,14 @@
+﻿  Win32_Platform.cpp
+D:\GitHub\PongGame\PongGame\src\Win32_Platform.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\GitHub\PongGame\PongGame\src\Win32_Platform.cpp(16,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\GitHub\PongGame\PongGame\src\Win32_Platform.cpp(17,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\GitHub\PongGame\PongGame\src\renderer.cpp(50,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\PongGame\PongGame\src\renderer.cpp(51,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\PongGame\PongGame\src\renderer.cpp(52,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\PongGame\PongGame\src\renderer.cpp(53,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\GitHub\PongGame\PongGame\src\Win32_Platform.cpp(18,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\GitHub\PongGame\PongGame\src\Win32_Platform.cpp(54,50): error C2440: '=': cannot convert from 'const char [18]' to 'LPCWSTR'
+D:\GitHub\PongGame\PongGame\src\Win32_Platform.cpp(54,31): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+D:\GitHub\PongGame\PongGame\src\Win32_Platform.cpp(59,16): error C2664: 'HWND CreateWindowExW(DWORD,LPCWSTR,LPCWSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)': cannot convert argument 3 from 'const char [15]' to 'LPCWSTR'
+D:\GitHub\PongGame\PongGame\src\Win32_Platform.cpp(59,16): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winuser.h(4436,1): message : see declaration of 'CreateWindowExW'
